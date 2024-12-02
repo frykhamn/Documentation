@@ -1,0 +1,29 @@
+site_name: My Docs
+site_description: A description of my docs
+site_url: https://example.com/
+theme:
+  name: material
+  palette:
+  # Dark theme
+    scheme: default
+    primary: deep purple
+    accent: deep orange
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo:
+    icon: home
+    text: My Docs
+  favicon: path/to/favicon.ico
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
